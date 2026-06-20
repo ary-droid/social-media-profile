@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      margin:0;
+      display:flex;
+      flex-direction: column;
+      min-height:100vh;
+      align-items: center;
+      background-color:  hsl(0, 0%, 8%);
+      
+    }
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    p,h1{
+      margin:0;
+      font-family: Figtree;
+    }
+    h1{
+      color:white;
+      margin-top: 25px;
+      font-weight: 700;
+    }
+    
+    .profile{
+      margin-top:20px;
+    }
+    .main{
+      display:flex;
+      flex:1;
+      justify-content:center;
+      align-items:center;
+      width: 100%;
+    
+    }
+    .profile{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      
+    }
+    .Card{
+      padding: 30px;
+      width :350px;
+      max-width:100%;
+      border: 2px ;
+      border-radius: 5px;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(0, 0%, 12%);
+
+    }
+    img{
+      width: 35%;
+      border-radius: 100%;
+    }
+    .Git,.Frontend,.Linkedln,.Twitter,.Instagram{
+      display:block;
+      box-sizing: border-box;
+      width: 100%;
+      margin-top: 12px;
+      padding : 16px 110px ;
+      background-color:hsl(0, 0%, 20%);
+      border-radius: 5px;
+      text-align: center;
+      font-family: Figtree;
+      color: white;
+      
+    }
+    .location{
+      color: hsl(75, 94%, 57%);
+      margin-top: 4px;
+    }
+    .detail{
+      color:white;
+      margin-top: 25px;
+    }
+    
+  </style>
+</head>
+<body>
+<main class="main">
+<section class="Card">
+<img src="assets/images/avatar-jessica.jpeg" alt="error">
+
+  <h1>Jessica Randall </h1>
+  
+ <p class="location"> London, United Kingdom</p> 
+ <p class="detail"> "Front-end developer and avid reader."</p>
+ 
+<section class ="profile">
+ <div class="Git">Github</div>
+ <div class="Frontend">Frontend mentor</div>
+ <div class="Linkedln">Linkedln</div>
+ <div class="Twitter">Twitter</div>
+ <div class="Instagram">Instagram</div>
+ </section>
+
+</section>
+</main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+</html>
